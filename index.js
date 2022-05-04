@@ -1,5 +1,10 @@
-var firstName = "Daniel";
-var lastName = "Sládeček";
-let sum  = "Ahojte, víta vás: " + firstName + " " + lastName;
+const plantNeedsWater = function(day) {
+  if(day === 'Wednesday' ) {
+      return true;
+  } else {
+    return false;
+  }
+};
 
-console.log(sum);
+plantNeedsWater('Tuesday');
+console.log(plantNeedsWater('Tuesday'));
