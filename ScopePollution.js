@@ -3,7 +3,7 @@ const galaxy = 'The Milky Way';
 let stars = 'North Star';
 
 const callMyNightSky = () => {
-  stars = 'Sirius';
+  stars = 'Sirius';  // assign, reassign variable (stars) to "Sirius"
 	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
 };
 
